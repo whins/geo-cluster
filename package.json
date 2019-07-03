@@ -26,16 +26,17 @@
   ],
   "license": "ISC",
   "main": "dist/index.js",
-  "name": "geo-cluster",
+  "name": "@whins/geo-cluster",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/whins/geo-cluster.git"
   },
   "scripts": {
     "build": "webpack -p",
-    "dev": "tsc && webpack-dev-server --inline --hot",
+		"dev": "tsc && webpack-dev-server --inline --hot",
+		"publish": "npm publish --scope=@whins --access=public",
     "test": "karma start"
   },
   "types": "dist/index.d.ts",
-  "version": "1.0.0"
+  "version": "1.0.3"
 }

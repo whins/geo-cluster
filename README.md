@@ -5,7 +5,7 @@ This is modification of [`geocluster`](https://www.npmjs.com/package/geocluster)
 ## Install
 
 ```
-npm install geo-cluster
+npm install @whins/geo-cluster
 ```
 
 ## API
@@ -13,6 +13,7 @@ npm install geo-cluster
 ###let clusters: ICluster = new Geocluster(coordinates[, zoom]).clusters;
 
 `coordinates` is an Array of `ICoordinate` `{ latitude: number; longitude: number; }`.
+
 `zoom` value from 1 to 20.
 
 `clusters` is an Array of cluster objects `ICluster`, which have `centroid` and `elements` properties. 
