@@ -10,7 +10,7 @@ npm install @whins/geo-cluster
 
 ## API
 
-###let clusters: ICluster = new Geocluster(coordinates[, zoom]).clusters;
+### let clusters: ICluster = new Geocluster(coordinates[, zoom]).clusters;
 
 `coordinates` is an Array of `ICoordinate` `{ latitude: number; longitude: number; }`.
 
