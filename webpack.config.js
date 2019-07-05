@@ -2,7 +2,9 @@ module.exports = {
 	mode: "development",
 	entry: "./index.ts",
 	output: {
-		filename: "./index.js"
+		filename: "./index.js",
+		library: "GeoCluster",
+		libraryTarget: "umd"
 	},
 	resolve: {
 		extensions: [".ts", ".tsx", ".js"]

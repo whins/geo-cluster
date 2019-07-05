@@ -1,42 +1,42 @@
 {
-  "author": "whins",
-  "bugs": {
-    "url": "https://github.com/whins/geo-cluster/issues"
-  },
-  "description": "",
-  "devDependencies": {
-    "@types/jasmine": "^2.8.16",
-    "jasmine-core": "^3.4.0",
-    "karma": "^2.0.5",
-    "karma-chrome-launcher": "^2.2.0",
-    "karma-jasmine": "^1.1.2",
-    "karma-webpack": "^3.0.5",
-    "ts-loader": "^4.5.0",
-    "typescript": "^3.5.2",
-    "webpack": "^4.33.0",
-    "webpack-cli": "^3.3.3",
-    "webpack-command": "^0.4.2",
-    "webpack-dev-server": "^3.7.0"
-  },
-  "homepage": "https://github.com/whins/geo-cluster#readme",
-  "keywords": [
-    "geo",
-    "cluster",
-    "coordinate"
-  ],
-  "license": "ISC",
-  "main": "dist/index.js",
-  "name": "@whins/geo-cluster",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/whins/geo-cluster.git"
-  },
-  "scripts": {
-    "build": "webpack -p",
+	"author": "whins",
+	"bugs": {
+		"url": "https://github.com/whins/geo-cluster/issues"
+	},
+	"description": "",
+	"devDependencies": {
+		"@types/jasmine": "^2.8.16",
+		"jasmine-core": "^3.4.0",
+		"karma": "^2.0.5",
+		"karma-chrome-launcher": "^2.2.0",
+		"karma-jasmine": "^1.1.2",
+		"karma-webpack": "^3.0.5",
+		"ts-loader": "^4.5.0",
+		"typescript": "^3.5.2",
+		"webpack": "^4.33.0",
+		"webpack-cli": "^3.3.3",
+		"webpack-command": "^0.4.2",
+		"webpack-dev-server": "^3.7.0"
+	},
+	"homepage": "https://github.com/whins/geo-cluster#readme",
+	"keywords": [
+		"geo",
+		"cluster",
+		"coordinate"
+	],
+	"license": "ISC",
+	"main": "dist/index.js",
+	"name": "@whins/geo-cluster",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/whins/geo-cluster.git"
+	},
+	"scripts": {
+		"build": "webpack -p",
 		"dev": "tsc && webpack-dev-server --inline --hot",
 		"publish": "npm publish --scope=@whins --access=public",
-    "test": "karma start"
-  },
-  "types": "dist/index.d.ts",
-  "version": "1.0.3"
+		"test": "karma start"
+	},
+	"types": "dist/index.d.ts",
+	"version": "1.0.6"
 }

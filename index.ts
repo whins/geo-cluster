@@ -8,7 +8,7 @@ export interface ICluster {
 	elements: ICoordinate[];
 }
 
-export class Geocluster {
+export class GeoCluster {
 	clusters: ICluster[] = [];
 
 	private coordinates: ICoordinate[] = [];

@@ -1,12 +1,12 @@
-import { Geocluster } from "./index";
+import { GeoCluster } from "./index";
 
-describe("Geocluster", () => {
+describe("GeoCluster", () => {
 	beforeEach(function() {
-		// spyOn(Geocluster.prototype, 'push').and.callThrough();
+		// spyOn(GeoCluster.prototype, 'push').and.callThrough();
 	});
 
 	it("should create an instance", () => {
-		let geo = new Geocluster(
+		let geo = new GeoCluster(
 			[
 				{
 					latitude: 10,
